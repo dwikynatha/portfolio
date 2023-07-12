@@ -587,10 +587,16 @@ form textarea {
     grid-template-columns: 1fr;
   }
 }
-
-@media (max-width: 840px) {
+/* sebelumnya 840px */
+@media (max-width: 920px) {
   #menu-icon {
     display: block;
+  }
+
+  header {
+    background: var(--bg-color);
+    /* border-bottom: 1px solid #ffffff1a; */
+    /* padding: 5px 15%; */
   }
   .navlist {
     position: absolute;

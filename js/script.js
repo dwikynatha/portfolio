@@ -20,5 +20,5 @@ const hello = document.getElementById("hello");
 const sayHello = document.getElementById("btnHello");
 
 sayHello.addEventListener("click", function () {
-  hello.innerText = "Hello, My World";
+  hello.innerHTML = "Hello World";
 });
