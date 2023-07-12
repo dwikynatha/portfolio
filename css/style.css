@@ -11,11 +11,11 @@
 :root {
   /* opsi warna lain */
 
-  --text-color: #caf0f8;
-  --main-color: #00b4d8;
-  --second-color: #90e0ef;
-  --bg-color: #303146;
-  --second-bg-color: #50538b;
+  --text-color: #ffffff;
+  --main-color: #0fc3e7;
+  --second-color: #d8e4e6;
+  --bg-color: #4f787e;
+  --second-bg-color: #1b2f36;
   /*  */
   /* --font-bg-white: #3e128f;
   --font-second-bg-white: #3b1b77; */
@@ -117,7 +117,7 @@ section.contact {
   width: 100%;
   height: 20%;
   bottom: 0;
-  background: linear-gradient(0deg, rgb(61, 60, 60) 1%, rgba(0, 0, 0, 0) 55%);
+  background: linear-gradient(0deg, rgb(26, 51, 56) 1%, rgba(0, 0, 0, 0) 55%);
 }
 
 .slide {
@@ -223,7 +223,7 @@ section.contact {
 }
 
 header.sticky {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(24, 45, 50, 0.7);
   /* border-bottom: 1px solid #ffffff1a; */
   padding: 5px 15%;
 }
@@ -232,6 +232,7 @@ header.sticky a {
 }
 
 .about {
+  /* height: 100vh; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -336,8 +337,8 @@ header.sticky a {
 
 .read:hover {
   letter-spacing: 1px;
-  background: #ff4d05;
-  color: var(--bg-color);
+  background: var(--main-color);
+  color: var(--second-bg-color);
 }
 
 .portfolio-content {
@@ -494,6 +495,11 @@ form textarea {
   margin-bottom: 10px;
 }
 
+/* untuk ganti warna placeholder */
+.contact-form form .input::-webkit-input-placeholder {
+  color: rgb(203, 201, 201);
+}
+
 .contact-form textarea {
   resize: none;
   height: 240px;
@@ -570,7 +576,7 @@ form textarea {
     font-size: 2.5rem;
   }
   .home {
-    height: 87vh;
+    height: 100vh;
   }
 }
 
@@ -605,7 +611,7 @@ form textarea {
   }
 
   header {
-    background: var(--bg-color);
+    background: var(--second-bg-color);
     /* border-bottom: 1px solid #ffffff1a; */
     /* padding: 5px 15%; */
   }
@@ -616,7 +622,7 @@ form textarea {
     left: 0;
     display: flex;
     flex-direction: column;
-    background: var(--bg-color);
+    background: var(--second-bg-color);
     text-align: left;
     transition: all 0.45s ease;
   }
