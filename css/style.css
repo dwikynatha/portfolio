@@ -568,6 +568,10 @@ form textarea {
 }
 
 @media (max-width: 920px) {
+  .home::after {
+    height: 10%;
+  }
+
   .about {
     grid-template-columns: 1fr;
   }
