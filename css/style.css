@@ -539,7 +539,11 @@ form textarea {
     transition: 0.1s;
   }
 
-  section {
+  section .home-text,
+  section.about,
+  section.services,
+  section.portfolio,
+  section.contact {
     padding: 110px 3% 60px;
   }
 
