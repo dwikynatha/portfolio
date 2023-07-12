@@ -9,6 +9,8 @@
 }
 
 :root {
+  --font-bg-white: #3e128f;
+  --font-second-bg-white: #3b1b77;
   --bg-color: #2a2a2a;
   --second-bg-color: #202020;
   --text-color: #fff;
@@ -56,7 +58,7 @@ span {
 }
 
 .navlist a {
-  color: var(--bg-color);
+  color: var(--text-color);
   font-size: 17px;
   font-weight: 500;
   margin: 0 25px;
@@ -92,7 +94,7 @@ section.contact {
   position: relative;
   height: 100vh;
   width: 100%;
-  background-image: url(../img/mount.jpg);
+  background-image: url(../img/mount3.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -107,11 +109,7 @@ section.contact {
   width: 100%;
   height: 20%;
   bottom: 0;
-  background: linear-gradient(
-    0deg,
-    rgb(95, 94, 94) 1%,
-    rgba(15, 15, 15, 0) 55%
-  );
+  background: linear-gradient(0deg, rgb(61, 60, 60) 1%, rgba(0, 0, 0, 0) 55%);
 }
 
 .slide {
@@ -160,10 +158,11 @@ section.contact {
 }
 
 .home-text p {
-  color: var(--second-color);
+  color: var(--text-color);
   font-size: var(--p-font);
   line-height: 1.8;
   margin-bottom: 40px;
+  /* mix-blend-mode: difference; */
 }
 
 .button {
