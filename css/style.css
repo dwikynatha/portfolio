@@ -9,13 +9,21 @@
 }
 
 :root {
-  --font-bg-white: #3e128f;
-  --font-second-bg-white: #3b1b77;
-  --bg-color: #2a2a2a;
+  /* opsi warna lain */
+
+  --text-color: #caf0f8;
+  --main-color: #00b4d8;
+  --second-color: #90e0ef;
+  --bg-color: #303146;
+  --second-bg-color: #50538b;
+  /*  */
+  /* --font-bg-white: #3e128f;
+  --font-second-bg-white: #3b1b77; */
+  /* --bg-color: #2a2a2a;
   --second-bg-color: #202020;
   --text-color: #fff;
   --second-color: #ccc;
-  --main-color: #ff4d05;
+  --main-color: #ff4d05; */
   --big-font: 5rem;
   --h2-font: 3rem;
   --p-font: 1.1rem;
