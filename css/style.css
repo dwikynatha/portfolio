@@ -292,8 +292,8 @@ header.sticky a {
 }
 
 .main-text p {
-  color: var(--second-color);
-  font-size: 15px;
+  color: var(--bg-color);
+  font-size: 20px;
   margin-bottom: 15px;
 }
 
@@ -356,6 +356,10 @@ header.sticky a {
   letter-spacing: 1px;
   background: var(--second-color);
   color: var(--bg-color);
+}
+
+.portfolio p {
+  color: var(--second-bg-color);
 }
 
 .portfolio-content {
@@ -629,7 +633,7 @@ form textarea {
   }
 
   header {
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     /* border-bottom: 1px solid #ffffff1a; */
     /* padding: 5px 15%; */
   }
@@ -640,7 +644,7 @@ form textarea {
     left: 0;
     display: flex;
     flex-direction: column;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     text-align: left;
     transition: all 0.45s ease;
   }
