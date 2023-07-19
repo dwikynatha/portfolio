@@ -52,8 +52,8 @@ header {
   display: flex;
   align-items: canter;
   justify-content: space-between;
-  background: transparent;
-  padding: 22px 15%;
+  background: rgba(24, 45, 50, 0.5);
+  padding: 10px 15%;
   border-bottom: 1px solid transparent;
   transition: all 0.45s ease;
   align-items: center;
@@ -232,9 +232,9 @@ section.contact {
 }
 
 header.sticky {
-  background: rgba(24, 45, 50, 0.7);
+  background: var(--bg-color);
   /* border-bottom: 1px solid #ffffff1a; */
-  padding: 5px 15%;
+  padding: 10px 15%;
 }
 header.sticky a {
   color: var(--text-color);
@@ -566,7 +566,7 @@ form textarea {
 
 @media (max-width: 1480px) {
   header {
-    padding: 12px 2.5%;
+    padding: 10px 2.5%;
     transition: 0.1s;
   }
   header.sticky {
